@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  border: 1px solid green;
+  color: white;
+  margin: 0;
+  background-color: green;
+  text-align: center;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(238, 223, 223);
+}
+
+main > div {
+  overflow-x: auto;
+}
+
+table {
+  border-radius: 5px;
+  background-color: white;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  padding-left: 0px;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  table{
+    width: 100%;
+    margin: 0;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  table {
+    width: 70%;
+    margin: auto;
+  }
+
+  body {
+    font-size: 20px;
+  }
+}
